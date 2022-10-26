@@ -4,7 +4,7 @@ A Proof of concept demo using MQTT to control Servos using a Raspberry Pi Pico W
 
 ## Dependencies
 
-The demo has been built using the following libraries. Copies of whilch are included in the /lib directory.
+The demo has been built using the following libraries. Copies of which are included in the /lib directory (unchanged).
 
 1. The mqtt_as client from [micropython-mqtt](https://github.com/peterhinch/micropython-mqtt).
 2. I created a prototype asyncronous servo library [servo_as](https://github.com/PhilLeach/servo_as) to drive the servos.
