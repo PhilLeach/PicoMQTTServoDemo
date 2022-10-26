@@ -5,7 +5,7 @@ from secrets import SERVER, SSID, PW
 
 def servo_setup():
     s1 = Servo('Servo1',0,Servo.CENTER)
-    s2 = Servo('Servo2',0,Servo.CENTER)
+    s2 = Servo('Servo2',1,Servo.CENTER)
     servos = {'Servo1' : s1, 'Servo2' : s2}
     return servos
 
